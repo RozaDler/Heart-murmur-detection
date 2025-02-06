@@ -38,15 +38,27 @@ Best Performance was achieved through the Joint Model using 800Hz Filtering
 
 Best Performance was achieved through the Joint Model using 800Hz Filtering  
 
-<div align="center" style="display: flex; justify-content: center; gap: 20px;">
-    <img src="./docs/ml-tabular.png" width="45%">
-    <img src="./docs/best-pr.png" width="45%">
-</div>
-<p align="center"><b>Performance Comparison of ML Models (Tabular Data Only) | ROC Curve for Joint Learning (800Hz Filtering)</b></p>
-
-<div align="center">
-    <img src="./docs/diff-audio.png" width="45%">
-</div>
-<p align="center"><b>Performance Metrics for Joint Model with Different Data Processing Methods</b></p>
+<table align="center">
+    <tr>
+        <td align="center">
+            <img src="./docs/best-pr.png" width="50%"><br>
+            <b>ROC Curve for Joint Learning (800Hz Filtering)</b>
+        </td>
+        <td align="center">
+            <img src="./docs/best-pr-conf.png" width="50%"><br>
+            <b>Confusion Matrix for Joint Learning (800Hz Filtering)</b>
+        </td>
+    </tr>
+    <tr>
+        <td align="center">
+            <img src="./docs/ml-tabular.png" width="50%"><br>
+            <b>Performance Comparison of ML Models (Tabular Data Only)</b>
+        </td>
+        <td align="center">
+            <img src="./docs/diff-audio.png" width="50%"><br>
+            <b>Performance Metrics for Joint Model with Different Data Processing Methods</b>
+        </td>
+    </tr>
+</table>
 
 
