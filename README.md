@@ -6,6 +6,12 @@ Heart disease is a leading cause of morbidity and mortality worldwide, especiall
 
 A Joint Learning Model for heart murmur detection through Phonocardiogram Recordings and time series patient records
 
+## Model Architecture 
+
+Experimented with Traditional Machine Learning approached for the tabular data only, and then used a Joint CNN + MLP model combining audio & tabular data. 
+
+<img src="./docs/heart-murmur-arch.png" width="600"> 
+
 ## Dataset
 
 The dataset consists of 1568 patients, each with:
@@ -24,12 +30,6 @@ The dataset consists of 1568 patients, each with:
 Audio Processing
 - Converted .wav files into spectrograms & MFCC features.
 - Applied low-pass filtering (400Hz & 800Hz) to remove noise.
-
-## Model Architecture 
-
-Experimented with Traditional Machine Learning approached for the tabular data only, and then used a Joint CNN + MLP model combining audio & tabular data. 
-
-<img src="./docs/heart-murmur-arch.png" width="600"> 
 
 ## Results 
 
